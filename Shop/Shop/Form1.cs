@@ -36,11 +36,6 @@ namespace Shop
             dataReader.Close();
             connection.Close();
 
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "databaseDataSet.Sale". При необходимости она может быть перемещена или удалена.
-            this.saleTableAdapter.Fill(this.databaseDataSet.Sale);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "databaseDataSet.Customers". При необходимости она может быть перемещена или удалена.
-            this.customersTableAdapter.Fill(this.databaseDataSet.Customers);
-
         }
 
         private void button1_Click(object sender, EventArgs e)
